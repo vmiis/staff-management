@@ -2,6 +2,7 @@
 	"name":"Documents",
 	"url":"https://vmiis.github.io/modules/panels/panel.2.html",
 	"parameters":{
+		"child_configuration_url":"/configurations/child-panel.json"
 	},
 	"panel":
 	{
@@ -11,22 +12,55 @@
 				"sections":
 				[
 					{
-						"name":"Documents",
+						"name":"Staff management",
 						"modules":
 						[
 							{
-							   "module_id" : "m01",
-							   "name" : "Documents",
-							   "table_id" : "20008360",
-							   "url" : "/modules/file.html",
-							   "counting":"1"
+								"module_id":"staff",
+								"name":"Staff",
+								"table_id":"20009675",
+								"url":"/modules/staff.html",
+								"counting":"1"
 							},
 							{
-							   "module_id" : "category",
-							   "name" : "Category",
-							   "table_id" : "20008361",
-							   "url" : "/modules/category.html",
-							   "counting":"1"
+								"module_id":"phone_and_room",
+								"name":"Staff's phone and room number",
+								"table_id":"20009675",
+								"url":"/modules/staff_phone_and_room.html"
+							},
+							{
+								"module_id":"private_info",
+								"name":"Staff private info",
+								"table_id":"20009683",
+								"url":"/modules/private_info.html",
+								"counting":"1"
+							},
+							{
+								"module_id":"personal_documents",
+								"name":"Staff personal documents",
+								"table_id":"20009684",
+								"url":"/modules/personal_document.html",
+								"counting":"1"
+							},
+							{
+								"module_id":"emergency_contacts",
+								"name":"Staff emergency contacts",
+								"table_id":"20009685",
+								"url":"/modules/emergency_contact.html",
+								"counting":"1"
+							}
+						]
+					},
+					{
+						"name":"Setup",
+						"modules":
+						[
+							{
+								"module_id":"department",
+								"name":"Departments",
+								"table_id":"20009682",
+								"url":"/modules/department.html",
+								"counting":"1"
 							}
 						]
 					}
