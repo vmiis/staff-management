@@ -1,5 +1,5 @@
 {
-	"name":"Documents",
+	"name":"Staff Management",
 	"url":"https://vmiis.github.io/modules/panels/panel.2.html",
 	"parameters":{
 		"child_configuration_url":"/configurations/child-panel.json"
@@ -12,41 +12,41 @@
 				"sections":
 				[
 					{
-						"name":"Staff management",
+						"name":"Staff Info",
 						"modules":
 						[
 							{
 								"module_id":"staff",
 								"name":"Staff",
 								"table_id":"20009675",
-								"url":"/modules/staff.html",
+								"url":"/modules/staff/staff.html",
 								"counting":"1"
 							},
 							{
 								"module_id":"phone_and_room",
-								"name":"Staff's phone and room number",
+								"name":"Phone and room number",
 								"table_id":"20009675",
-								"url":"/modules/staff_phone_and_room.html"
+								"url":"/modules/staff/staff_phone_and_room.html"
 							},
 							{
 								"module_id":"private_info",
-								"name":"Staff private info",
+								"name":"Private info",
 								"table_id":"20009683",
-								"url":"/modules/private_info.html",
+								"url":"/modules/staff/private_info.html",
 								"counting":"1"
 							},
 							{
 								"module_id":"personal_documents",
-								"name":"Staff personal documents",
+								"name":"Personal documents",
 								"table_id":"20009684",
-								"url":"/modules/personal_document.html",
+								"url":"/modules/staff/personal_document.html",
 								"counting":"1"
 							},
 							{
 								"module_id":"emergency_contacts",
-								"name":"Staff emergency contacts",
+								"name":"Emergency contacts",
 								"table_id":"20009685",
-								"url":"/modules/emergency_contact.html",
+								"url":"/modules/staff/emergency_contact.html",
 								"counting":"1"
 							}
 						]
@@ -59,11 +59,30 @@
 								"module_id":"department",
 								"name":"Departments",
 								"table_id":"20009682",
-								"url":"/modules/department.html",
+								"url":"/modules/setup/department.html",
 								"counting":"1"
 							}
 						]
 					}
+				]
+			}
+			,{
+				"sections":
+				[
+					{
+						"name":"HR Records",
+						"modules":
+						[
+							{
+								"module_id":"hr_documents",
+								"name":"HR documents",
+								"table_id":"20008385",
+								"url":"/modules/staff/hr_document.html",
+								"counting":"1"
+							}
+						]
+					}
+
 				]
 			}
 		]

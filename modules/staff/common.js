@@ -14,8 +14,10 @@ var _default_cell_render=function(records,I,field,td,set_value,source){
 					records[I].Staff=ui.item.value;
 					records[I].Login_Name=ui.item.S2;
 					records[I].Staff_uid=ui.item.value2;
+					records[I].vm_dirty=1;
+			        $('#save__ID').css('background','#E00');
 				}
-				VmInclude:__LIB__/vmiis/Common-Code/grid/field_auto_with_callback.js
+				VmInclude:__PARTS__/grid/field_auto_with_callback.js
 			}
 			break;
 	}
