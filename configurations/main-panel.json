@@ -63,10 +63,10 @@
 								"counting":"1"
 							}
 							,{
-								"module_id":"alert_email_managers",
+								"module_id":"managers",
 								"name":"Managers",
-								"table_id":"20003838",
-								"url":"/modules/setup/alert_email_list.html",
+								"table_id":"20009687",
+								"url":"/modules/setup/managers.html",
 								"counting":"1"
 							}
 						]
