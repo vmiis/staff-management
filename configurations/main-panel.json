@@ -62,15 +62,13 @@
 								"url":"/modules/setup/department.html",
 								"counting":"1"
 							}
-							{
+							,{
 								"module_id":"alert_email_managers",
 								"name":"Managers",
-								"table_id":"20007519",
-								"url":"/modules/setup/alert_email.html",
+								"table_id":"20003838",
+								"url":"/modules/setup/alert_email_list.html",
 								"counting":"1"
 							}
-
-
 						]
 					}
 				]
