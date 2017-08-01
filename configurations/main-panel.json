@@ -69,6 +69,13 @@
 								"url":"/modules/setup/managers.html",
 								"counting":"1"
 							}
+							,{
+								"module_id":"accountant",
+								"name":"Accountants",
+								"table_id":"20003837",
+								"url":"/modules/setup/accountants.html",
+								"counting":"1"
+							}
 						]
 					}
 				]
